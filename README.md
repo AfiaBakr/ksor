@@ -24,6 +24,8 @@ and they deploy separately.
 
 **Contents**
 
+- [About this record](#about-this-record)
+- [Architecture planning — Pakistan](#architecture-planning--pakistan)
 - [Quick start](#quick-start)
 - [Explore the human interface](#explore-the-human-interface)
 - [Serving to agents](#serving-to-agents)
@@ -33,6 +35,66 @@ and they deploy separately.
 - [Deploying](#deploying)
 - [Reference](#reference) — [commands](#commands) · [the files](#the-files-explained) · [when something refuses you](#when-something-refuses-you) · [dependencies](#dependencies-and-advisories)
 - [Ownership](#ownership)
+
+---
+
+## About this record
+
+**KSoR (Knowledge System of Record), in short:** a governed layer of plain
+markdown (`knowledge/`) that people and AI agents both treat as the single
+source of truth. Every document carries an owner and an approval; a `draft`
+reaches no surface at all — not the site, not `llms.txt`, not the MCP door —
+until a named person approves it as `stable`. Once published, every claim
+traces to a cited source, and the agent surface declines rather than
+improvises when a question falls outside what's actually in the record. The
+full working contract is [`AGENTS.md`](AGENTS.md).
+
+This particular record — `handbook` — currently publishes one substantive
+body of knowledge: **architecture planning and building-control regulation
+across Pakistan**.
+
+## Architecture planning — Pakistan
+
+`knowledge/architecture-planning/` is a governed reference on **building-control
+authority, feasibility, and cost-estimation practice across Pakistan** — 10
+approved (`status: stable`) documents.
+
+**Why it's split by area rather than written as one FAQ:** Pakistan has no
+single building authority. Regulation splits by territory (the federal
+capital), by province (each with its own city development authorities), and
+by enclave (cantonments and Defence Housing Authority estates run a separate,
+military-administered track under the Cantonments Act 1924 rather than the
+civilian authority for that city). A reader — or an agent — asking "what
+governs construction here" needs the document for that specific jurisdiction,
+not a flattened national summary.
+
+| Document | Covers |
+| --- | --- |
+| [`overview.md`](knowledge/architecture-planning/overview.md) | How authority splits nationally (federal / provincial / enclave), the two federal professional bodies (PEC, PCATP), and the Building Code of Pakistan |
+| [`feasibility-and-estimation.md`](knowledge/architecture-planning/feasibility-and-estimation.md) | The four-gate feasibility sequence (land-use → regulatory → technical → financial) and the two non-interchangeable cost instruments — the Composite Schedule of Rates (what it costs to build) vs. FBR/DC valuation tables (what a property is worth) |
+| [`islamabad-capital-territory.md`](knowledge/architecture-planning/islamabad-capital-territory.md) | Capital Development Authority (CDA) |
+| [`punjab.md`](knowledge/architecture-planning/punjab.md) | LDA (Lahore), RDA (Rawalpindi), FDA (Faisalabad), MDA (Multan), GDA (Gujranwala), plus the provincial legal framework |
+| [`sindh.md`](knowledge/architecture-planning/sindh.md) | SBCA — province-wide, not just Karachi — KMC's municipal role, and HDA (Hyderabad) |
+| [`khyber-pakhtunkhwa.md`](knowledge/architecture-planning/khyber-pakhtunkhwa.md) | PDA (Peshawar), the KP Model Building Bye-laws 2017, and the 2024 Land Use and Building Control amendment |
+| [`balochistan.md`](knowledge/architecture-planning/balochistan.md) | QDA (Quetta) |
+| [`gilgit-baltistan.md`](knowledge/architecture-planning/gilgit-baltistan.md) | Gilgit Development Authority |
+| [`azad-jammu-kashmir.md`](knowledge/architecture-planning/azad-jammu-kashmir.md) | Development Authority Muzaffarabad (DAM) and the AJK Building Control Ordinance 2011 |
+| [`cantonments-and-dha.md`](knowledge/architecture-planning/cantonments-and-dha.md) | The military-administered track (Cantonments Act 1924, ML&C) and the DHA network's own bye-laws |
+
+**Governance status.** All ten are approved by `human:afiabakr`, and every
+factual claim carries a footnote into that document's `sources:` frontmatter
+— open a page's "Sources" list to trace any figure back to where it came
+from. Where this record's research could not confirm something — an
+authority's current official website, an exact professional-fee percentage —
+the document says so in an `[!IMPORTANT]` callout rather than guessing (see,
+for example, Punjab's note on Multan and Gujranwala's unconfirmed sites, or
+Feasibility's note on PEC and PCATP's consultancy-fee schedule).
+
+**Read it:** `npm run dev`, then open `/docs/architecture-planning/overview`.
+**Query it as an agent:** once `npm run serve` is running and calibrated
+(see [Serving to agents](#serving-to-agents)), any connected MCP client can
+search this section with citations, or decline when a question falls outside
+it.
 
 ---
 
