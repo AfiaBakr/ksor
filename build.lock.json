@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:f3277c0cc97f0c5075ffe6a201d4be29c1fd6714c5b0eeb9be14fd4b6dea9d72",
+  "build_id": "sha256:9c0f54d2c7746fcb72b59d30fd3e5fc0a4803a4d2288ac10fbe6fd477d9a266a",
   "ksor_version": "0.0.58",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": null,
-  "dirty": true,
-  "as_of": "2026-09-02T17:17:26.734Z",
+  "source_commit": "98dbbe18cfad0a69d6a1da82c569ec123a27574c",
+  "dirty": false,
+  "as_of": "2026-09-17T15:31:53.019Z",
   "drafts": "hidden",
   "instance_sha256": "7192f24a1b12593b0b468fe5cdbeec9feaf53aa742e4a8df6c057bd37416fba5",
   "policy_sha256": "5f4ba6cfed103f4507191bd1b17e4e194bba3f5162ad22f2db712399fde5ce95",
@@ -26,19 +26,98 @@
   },
   "documents": [
     {
-      "path": "governance-ladder.md",
-      "sha256": "12a563f199411962a635f1f9f6ae4039c6e75adbb609d35720bc590f0f9a3df3",
-      "status": "stable",
+      "path": "architecture-planning/azad-jammu-kashmir.md",
+      "sha256": "8752ac495068cb528c97467c96bd6f6c93d87d8be3e1c0321270efb219fb268a",
+      "status": "draft",
       "audience": [
         "public"
       ],
-      "admitted": [
-        "public"
-      ]
+      "admitted": []
     },
     {
-      "path": "refund-policy.md",
-      "sha256": "59ecdc30d9dfc01ae4ff6477439a0bbcab897cb9682e0dd1668729276ec59d74",
+      "path": "architecture-planning/balochistan.md",
+      "sha256": "cebcd914bb226d790cc3c233e7a9809e841a30a4303dec102cee00720f6506eb",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/cantonments-and-dha.md",
+      "sha256": "d58ea85aae385143a70e24235ee243a8d2e9af676f2e9c8864c870412393673a",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/feasibility-and-estimation.md",
+      "sha256": "f500f1a43f3c596e9ceca2bc9c9ad667aca8195ca85d182067742f462b40cd54",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/gilgit-baltistan.md",
+      "sha256": "ce25d5be2455985c05d8231770faa958883e04757dd0818a074ed53ffa34c09a",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/islamabad-capital-territory.md",
+      "sha256": "fae45c9cdf7540a945557d541fb47c0aa0a8660cd274b04afe2e31603fb92949",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/khyber-pakhtunkhwa.md",
+      "sha256": "3ba7da07bd245917b0a1d6db22832f0e2a636cea9809e8e3e542210433ad739e",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/overview.md",
+      "sha256": "d69292d463d7c5b14ac47135e07306984fbf0aa1f219712afccc659fdd656863",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/punjab.md",
+      "sha256": "ac34a67e56caf35dd0a4e85c50e05027d689358c91fb56c1ec1a47d1688cfae3",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "architecture-planning/sindh.md",
+      "sha256": "196ea6540b0bc518e24892e24d16a563ce00e0913a8c6ee73716f2c82a789dc7",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "governance-ladder.md",
+      "sha256": "12a563f199411962a635f1f9f6ae4039c6e75adbb609d35720bc590f0f9a3df3",
       "status": "stable",
       "audience": [
         "public"
@@ -101,8 +180,12 @@
   "assets": [],
   "indexes": [
     {
+      "path": "architecture-planning/index.md",
+      "sha256": "d7328cf797cbe3e9df23a63f30a630df071c398dbbd181a033a01419a6b8d5ca"
+    },
+    {
       "path": "index.md",
-      "sha256": "1cbeb1616e750f0936a5e11f6ec98ecb50554b3fa96be89397c1608624a6e952"
+      "sha256": "3be234c8127223532d3f5fe8092070b498ca01aa6ed6e60174abe898d1010244"
     },
     {
       "path": "surfaces/index.md",
