@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:9c0f54d2c7746fcb72b59d30fd3e5fc0a4803a4d2288ac10fbe6fd477d9a266a",
+  "build_id": "sha256:03248cb4f5876109b77295e02982112e147139ea6f7f59e712ef9eb9ba16a7b0",
   "ksor_version": "0.0.58",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "98dbbe18cfad0a69d6a1da82c569ec123a27574c",
+  "source_commit": "bceb092587ddbf0663b4e0976c015983c964959f",
   "dirty": false,
-  "as_of": "2026-09-17T15:36:45.670Z",
+  "as_of": "2026-09-17T16:30:44.813Z",
   "drafts": "hidden",
   "instance_sha256": "7192f24a1b12593b0b468fe5cdbeec9feaf53aa742e4a8df6c057bd37416fba5",
   "policy_sha256": "5f4ba6cfed103f4507191bd1b17e4e194bba3f5162ad22f2db712399fde5ce95",
@@ -27,93 +27,113 @@
   "documents": [
     {
       "path": "architecture-planning/azad-jammu-kashmir.md",
-      "sha256": "8752ac495068cb528c97467c96bd6f6c93d87d8be3e1c0321270efb219fb268a",
-      "status": "draft",
+      "sha256": "53522eef37ae5cc35ff0a91720aeef331d3d0f0bf546bd7990defb1d79ccaf00",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/balochistan.md",
-      "sha256": "cebcd914bb226d790cc3c233e7a9809e841a30a4303dec102cee00720f6506eb",
-      "status": "draft",
+      "sha256": "fc14ed0d283883877115c845122b72ab6248695fe3f3847b4da43acededc2c37",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/cantonments-and-dha.md",
-      "sha256": "d58ea85aae385143a70e24235ee243a8d2e9af676f2e9c8864c870412393673a",
-      "status": "draft",
+      "sha256": "fccb35686a60eb53b97c8ac47036a128f79145873e45bc08d8e9365dd4374422",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/feasibility-and-estimation.md",
-      "sha256": "f500f1a43f3c596e9ceca2bc9c9ad667aca8195ca85d182067742f462b40cd54",
-      "status": "draft",
+      "sha256": "7ad8ddb656c72a89dda070bfc4cba02798de56c59c5b51c56c665dcfe7ccee8c",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/gilgit-baltistan.md",
-      "sha256": "ce25d5be2455985c05d8231770faa958883e04757dd0818a074ed53ffa34c09a",
-      "status": "draft",
+      "sha256": "c73e2415d1b71eab19d91755a05e89e648ee8946ca8c09a8d050ceb1760b7e56",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/islamabad-capital-territory.md",
-      "sha256": "fae45c9cdf7540a945557d541fb47c0aa0a8660cd274b04afe2e31603fb92949",
-      "status": "draft",
+      "sha256": "023858422d4f684faca5f74dbbcecb6c3b4a4f33852b6def5ab587f783e46f19",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/khyber-pakhtunkhwa.md",
-      "sha256": "3ba7da07bd245917b0a1d6db22832f0e2a636cea9809e8e3e542210433ad739e",
-      "status": "draft",
+      "sha256": "3060ae80ac81b106fc26c33921457ed35be8067f79df8a37b1e6a8132d9702a2",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/overview.md",
-      "sha256": "d69292d463d7c5b14ac47135e07306984fbf0aa1f219712afccc659fdd656863",
-      "status": "draft",
+      "sha256": "44a5edc40571b6f80df761155ff187c5f7e28251a4c8e717403aa4f1e9f0fe53",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/punjab.md",
-      "sha256": "ac34a67e56caf35dd0a4e85c50e05027d689358c91fb56c1ec1a47d1688cfae3",
-      "status": "draft",
+      "sha256": "7fd5280b845f9005efe4d8ca8aad2566918dd600d67160725cc958ff839f0dc5",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "architecture-planning/sindh.md",
-      "sha256": "196ea6540b0bc518e24892e24d16a563ce00e0913a8c6ee73716f2c82a789dc7",
-      "status": "draft",
+      "sha256": "8a0bcd40c472e49c9ff4a0f378090e86973c9c3219809337ea4b27a2b063e826",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "governance-ladder.md",
