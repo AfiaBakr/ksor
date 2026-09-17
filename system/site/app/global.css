@@ -40,51 +40,58 @@
    everywhere has no accent. `--ksor-caution` (further down) is the only other
    colour with a job, and its job is the opposite one. */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.17 0.012 255);
-  --card: oklch(0.985 0.002 255);
-  --card-foreground: oklch(0.17 0.012 255);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.17 0.012 255);
-  --primary: #1d4ed8;
-  --primary-foreground: #ffffff;
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.972 0.002 255);
-  --muted-foreground: oklch(0.53 0.012 255);
-  --accent: oklch(0.965 0.004 255);
-  --accent-foreground: oklch(0.17 0.012 255);
+  /* Black-and-gold's light half — NOT a literal inversion. Gold text on white
+     measures under 3:1 contrast (checked: #d4af37 on white ≈ 1.9:1, the dark
+     theme's own primary at ≈3:1), which fails WCAG AA's 4.5:1 for body copy
+     and would read as washed-out. So the roles swap instead of the colours:
+     the page becomes warm cream rather than clinical white, body text is a
+     deep bronze-gold ink (high contrast, same warm hue family), and the gold
+     itself is spent — darkened for the ≈4.5–6:1 a link needs — exactly where
+     the dark theme spends it: --primary, and nowhere else. */
+  --background: oklch(0.98 0.01 85);
+  --foreground: oklch(0.24 0.035 75);
+  --card: oklch(0.985 0.01 85);
+  --card-foreground: oklch(0.24 0.035 75);
+  --popover: oklch(0.985 0.01 85);
+  --popover-foreground: oklch(0.24 0.035 75);
+  --primary: #8a6a00;
+  --primary-foreground: #fffaf0;
+  --secondary: oklch(0.96 0.012 85);
+  --secondary-foreground: oklch(0.25 0.03 78);
+  --muted: oklch(0.965 0.01 85);
+  --muted-foreground: oklch(0.48 0.035 78);
+  --accent: oklch(0.94 0.02 85);
+  --accent-foreground: oklch(0.24 0.035 75);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.9 0.004 255);
-  --input: oklch(0.9 0.004 255);
-  --ring: #1d4ed8;
+  --border: oklch(0.88 0.02 85);
+  --input: oklch(0.88 0.02 85);
+  --ring: #8a6a00;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
   --radius: 0.5rem;
-  --sidebar: oklch(0.985 0.002 255);
-  --sidebar-foreground: oklch(0.17 0.012 255);
-  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar: oklch(0.975 0.01 85);
+  --sidebar-foreground: oklch(0.24 0.035 75);
+  --sidebar-primary: oklch(0.25 0.03 78);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.965 0.004 255);
-  --sidebar-accent-foreground: oklch(0.17 0.012 255);
-  --sidebar-border: oklch(0.9 0.004 255);
-  --sidebar-ring: #1d4ed8;
+  --sidebar-accent: oklch(0.94 0.02 85);
+  --sidebar-accent-foreground: oklch(0.24 0.035 75);
+  --sidebar-border: oklch(0.88 0.02 85);
+  --sidebar-ring: #8a6a00;
 
   /* The cover: the surface the front door's band is printed on. It follows the
      theme like everything else — in the light it is pale stock, a shade of the
-     brand rather than a shade of grey (hue 258, between the text's 255 and the
-     accent's 264). It was ink in both themes for one afternoon, which made the
-     light theme a dark page with a white foot. */
-  --ksor-cover: oklch(0.965 0.013 258);
-  --ksor-cover-foreground: oklch(0.2 0.03 258);
-  --ksor-cover-muted: oklch(0.5 0.022 258);
-  --ksor-cover-rule: oklch(0.885 0.016 258);
-  --ksor-cover-hover: oklch(0.935 0.018 258);
-  --ksor-cover-panel: oklch(1 0 0);
-  --ksor-cover-panel-rule: oklch(0.9 0.014 258);
+     brand rather than a shade of grey. Hue moved from the old blue 258 to the
+     gold family's 82/85, matching the dark theme's cover treatment. */
+  --ksor-cover: oklch(0.965 0.02 85);
+  --ksor-cover-foreground: oklch(0.25 0.04 82);
+  --ksor-cover-muted: oklch(0.5 0.035 82);
+  --ksor-cover-rule: oklch(0.885 0.025 85);
+  --ksor-cover-hover: oklch(0.93 0.025 85);
+  --ksor-cover-panel: oklch(0.995 0.004 85);
+  --ksor-cover-panel-rule: oklch(0.9 0.02 85);
 }
 
 .dark {
