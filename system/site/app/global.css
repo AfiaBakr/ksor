@@ -95,52 +95,60 @@
 }
 
 .dark {
-  /* Black-and-gold: background drops to nearly ink-black (a hair of warmth,
-     hue 80, keeps it from reading as a blue-black under the old palette
-     rather than truly neutral), and the body text is a soft champagne gold
-     — not the saturated brand gold, which is reserved for --primary so a
-     link or a button still stands out against a page that is ALSO gold. */
-  --background: oklch(0.07 0.01 80);
-  --foreground: oklch(0.82 0.1 85);
-  --card: oklch(0.11 0.012 82);
-  --card-foreground: oklch(0.82 0.1 85);
-  --popover: oklch(0.11 0.012 82);
-  --popover-foreground: oklch(0.82 0.1 85);
+  /* Black-and-gold, corrected: gold as BODY TEXT read as too much of it
+     (owner, 2026-09-17) — the whole point of a one-colour accent is that it
+     is rare, and champagne-gold prose on every line spent the colour on
+     everything, which is the same as spending it on nothing. So text goes
+     back to a clean neutral — near-black background, near-white ink — and
+     gold is confined to what it is FOR: --primary (links, buttons, the
+     active sidebar item, the focus ring) and the handful of rules elsewhere
+     in this file that already key off --color-fd-primary (list markers,
+     table heads, the section-label eyebrow). One accent, spent rarely, reads
+     as gold jewellery on black; the same colour on every word reads as a
+     colour cast. */
+  --background: oklch(0.085 0.004 85);
+  --foreground: oklch(0.93 0 0);
+  --card: oklch(0.13 0.004 85);
+  --card-foreground: oklch(0.93 0 0);
+  --popover: oklch(0.13 0.004 85);
+  --popover-foreground: oklch(0.93 0 0);
   --primary: #d4af37;
   --primary-foreground: #0a0806;
-  --secondary: oklch(0.18 0.014 82);
-  --secondary-foreground: oklch(0.9 0.08 85);
-  --muted: oklch(0.14 0.012 82);
-  --muted-foreground: oklch(0.62 0.06 85);
-  --accent: oklch(0.19 0.02 82);
-  --accent-foreground: oklch(0.86 0.09 85);
+  --secondary: oklch(0.19 0.004 85);
+  --secondary-foreground: oklch(0.95 0 0);
+  --muted: oklch(0.15 0.004 85);
+  --muted-foreground: oklch(0.65 0 0);
+  --accent: oklch(0.2 0.004 85);
+  --accent-foreground: oklch(0.93 0 0);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.4 0.05 85 / 22%);
-  --input: oklch(0.4 0.05 85 / 26%);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
   --ring: #d4af37;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.08 0.01 80);
-  --sidebar-foreground: oklch(0.82 0.1 85);
-  --sidebar-primary: oklch(0.72 0.15 85);
-  --sidebar-primary-foreground: oklch(0.09 0.01 80);
-  --sidebar-accent: oklch(0.19 0.02 82);
-  --sidebar-accent-foreground: oklch(0.86 0.09 85);
-  --sidebar-border: oklch(0.4 0.05 85 / 18%);
+  --sidebar: oklch(0.1 0.004 85);
+  --sidebar-foreground: oklch(0.93 0 0);
+  --sidebar-primary: #d4af37;
+  --sidebar-primary-foreground: #0a0806;
+  --sidebar-accent: oklch(0.2 0.004 85);
+  --sidebar-accent-foreground: oklch(0.93 0 0);
+  --sidebar-border: oklch(1 0 0 / 12%);
   --sidebar-ring: #d4af37;
 
-  /* In the dark the cover rises one step ABOVE the page, same as before —
-     only the hue moved, from the old blue 258 to gold 82/85, to match. */
-  --ksor-cover: oklch(0.16 0.03 82);
-  --ksor-cover-foreground: oklch(0.94 0.04 85);
-  --ksor-cover-muted: oklch(0.68 0.07 85);
-  --ksor-cover-rule: oklch(0.32 0.05 85);
-  --ksor-cover-hover: oklch(0.22 0.04 85);
-  --ksor-cover-panel: oklch(0.13 0.02 82);
-  --ksor-cover-panel-rule: oklch(0.3 0.04 85);
+  /* The cover keeps a whisper of the brand warmth in its SURFACE — enough
+     that the hero still reads as a distinct, considered panel rather than
+     plain black — but its text goes neutral like the page, for the same
+     reason as above: the hero heading is still body copy, at a larger size. */
+  --ksor-cover: oklch(0.14 0.012 85);
+  --ksor-cover-foreground: oklch(0.95 0 0);
+  --ksor-cover-muted: oklch(0.68 0 0);
+  --ksor-cover-rule: oklch(0.3 0.02 85);
+  --ksor-cover-hover: oklch(0.2 0.015 85);
+  --ksor-cover-panel: oklch(0.12 0.01 85);
+  --ksor-cover-panel-rule: oklch(0.28 0.02 85);
 }
 
 /* The token → utility mapping shadcn components compile against, as
