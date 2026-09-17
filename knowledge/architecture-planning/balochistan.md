@@ -2,11 +2,13 @@
 type: Document
 title: Balochistan — Quetta Development Authority
 description: QDA's legal basis, functions and resource links, and its relationship to the provincial development authority.
-status: draft
+status: stable
 order: 16
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: qda-official
     title: Quetta Development Authority — official site

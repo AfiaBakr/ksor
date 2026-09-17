@@ -2,11 +2,13 @@
 type: Document
 title: Sindh — building control authorities
 description: SBCA's province-wide jurisdiction, KMC's municipal role, and Hyderabad Development Authority.
-status: draft
+status: stable
 order: 14
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: sbca-official
     title: Sindh Building Control Authority — official site

@@ -2,11 +2,13 @@
 type: Document
 title: Khyber Pakhtunkhwa — Peshawar Development Authority and the provincial framework
 description: PDA's legal basis, KP's Model Building Bye-laws and Land Use and Building Control Act, with resource links.
-status: draft
+status: stable
 order: 15
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: pda-official
     title: Peshawar Development Authority — official site

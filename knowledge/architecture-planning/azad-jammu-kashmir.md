@@ -2,11 +2,13 @@
 type: Document
 title: Azad Jammu & Kashmir — Development Authority Muzaffarabad
 description: DAM's legal basis and mandate, and the AJK Building Control Ordinance that governs building-control agencies territory-wide.
-status: draft
+status: stable
 order: 18
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: dam-official
     title: Development Authority Muzaffarabad — official site

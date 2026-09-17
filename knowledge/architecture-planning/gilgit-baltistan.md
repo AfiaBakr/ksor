@@ -2,11 +2,13 @@
 type: Document
 title: Gilgit-Baltistan — Gilgit Development Authority
 description: GDA-GB's mandate and resource link, and Gilgit-Baltistan's status as a separate territory.
-status: draft
+status: stable
 order: 17
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: gda-gb-official
     title: Gilgit Development Authority (GDA-GB) — official site

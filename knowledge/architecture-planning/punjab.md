@@ -2,11 +2,13 @@
 type: Document
 title: Punjab — city development authorities
 description: LDA, RDA, FDA, MDA and GDA — each city's authority, legal basis and resource links, plus the provincial framework.
-status: draft
+status: stable
 order: 13
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: lda-official
     title: Lahore Development Authority — official site

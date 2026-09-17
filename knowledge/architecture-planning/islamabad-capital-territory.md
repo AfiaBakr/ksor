@@ -2,11 +2,13 @@
 type: Document
 title: Islamabad Capital Territory — Capital Development Authority
 description: CDA's legal basis, regulations and resource links for building control in Islamabad.
-status: draft
+status: stable
 order: 12
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: cda-official
     title: Capital Development Authority — official site

@@ -2,11 +2,13 @@
 type: Document
 title: Feasibility and cost-estimation rules
 description: The general feasibility-study sequence and the instruments Pakistan's authorities use to estimate and value construction cost.
-status: draft
+status: stable
 order: 11
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: csr-methodology
     title: Composite Schedule of Rates (CSR) — methodology and 25% overhead/profit markup

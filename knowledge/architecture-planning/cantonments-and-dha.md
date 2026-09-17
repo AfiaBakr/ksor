@@ -2,11 +2,13 @@
 type: Document
 title: Cantonments and Defence Housing Authorities
 description: The military-administered building-control track that runs alongside civilian development authorities, and the DHA network's own bye-laws.
-status: draft
+status: stable
 order: 19
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: cantonment-wiki
     title: Cantonment (Pakistan) — Wikipedia

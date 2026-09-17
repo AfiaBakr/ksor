@@ -2,11 +2,13 @@
 type: Document
 title: Architecture planning and building control in Pakistan — overview
 description: How building-control authority is organised across Pakistan, and how this section is structured by area.
-status: draft
+status: stable
 order: 10
+generated: { by: "human:afiabakr", at: 2026-09-17T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:afiabakr
+  approval: { by: "human:afiabakr", at: 2026-09-17T16:05:00Z }
 sources:
   - id: pec-official
     title: Pakistan Engineering Council — official site
